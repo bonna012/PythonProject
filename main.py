@@ -17,3 +17,23 @@ if age_num <= 18:
 else:
         drink = input("What do you wanna drink?")
         print("Enjoy your", drink + "!")
+
+# Count from 1 to 5
+for number in range(1, 6):
+    print(number)
+
+# Loop through a list
+fruits = ["apple", "banana", "cherry", "orange"]
+for fruit in fruits:
+    print("I like", fruit)
+
+def greet(name):
+    return "Hello, " + name +"."
+greeting = greet(name)
+print(greeting,"Have a good day"+ "!")
+
+print ("hello" + str (5))
+name = "Alice"
+print(name)
+numbers = [1, 2, 3, 4, 5]
+print(numbers[4])
